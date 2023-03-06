@@ -1,0 +1,7 @@
+## ML-based identification of interpretable process-structure linkages in metal additive manufacturing
+
+We present a data-driven framework based on physics-based simulation data to reveal explainable process-(micro)structure (P-S) linkages for metal AM. We provide an open-source dataset of 960 unique 3D microstructures based on metal AM simulations using the kinetic Monte Carlo (kMC) method. Selected ML regression algorithms aim to predict 3D chord length distributions (CLDs), as a morphology descriptor, depending on the associated process parameter combinations. Various dimension reduction algorithms are applied for computationally efficient use of the data space. The proposed methodology allows (i) microstructure predictions under given processing conditions and (ii) to navigate experts in the process parameter space to achieve target microstructures. In this context, SHAP (SHapley Additive exPlanations) values are used to decipher the contribution of individual process parameters to the microstructure evolution. In particular, SHAP values calculated in this study unfold the width of the melt pool and the heat-affected zone as dominant features on the model output.
+
+The used dataset can be found [here](https://figshare.com/articles/dataset/Metal_additive_manufacturing_3D_microstructure_dataset/21563991).
+
+![Picture1](https://user-images.githubusercontent.com/95081818/202185836-7e75a9dd-17db-483f-a1fd-d076c43a154e.png)
